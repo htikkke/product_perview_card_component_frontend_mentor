@@ -9,7 +9,13 @@
   <body>
     <div class="container">
       <div class="image-container">
-        <img src="images/desktop_design.png" />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="./images/mobile_design.png"
+          />
+          <img src="./images/desktop_design.png" alt="product-image" />
+        </picture>
       </div>
       <div class="words-container">
         <h5>PERFUME</h5>
